@@ -1,0 +1,40 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment4</title>
+    <link href="css/styles.css" rel="stylesheet" />
+    
+</head>
+<body>
+    <!--create a div and p to show student id-->
+    <div>
+        <p id="myStudentId"></p>
+    </div>
+        <!--create a search for Makes-->
+
+    <div class="input-group">
+        <span class="input-group-text" id="inputGroup-sizing-default">Search Car Make</span>
+        <input type="text" class="form-control searchInput" aria-label="Sizing example input"
+            aria-describedby="inputGroup-sizing-default">
+        <button type="button" class="btn btn-success" id="searchButton">Search</button>
+    </div>
+
+    <!--create a div and p to show errors-->
+    <div>
+        <p id="Error"></p>
+    </div>
+
+    <!--create a table-->
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">ID</th>
+                <th scope="col">Model Name</th>
+            </tr>
+        </thead>
+        <tbody id="tableBody"></tbody>
+    </table>
+    <script src="js/scripts.js" ></script>
+</body>
+</html>
